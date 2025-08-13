@@ -22,12 +22,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       {/* Theme Toggle */}
       <div className="fixed top-4 right-4 z-50">
-        <button
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400 p-3 rounded-xl transition-colors shadow-lg border border-gray-200 dark:border-gray-600"
-        >
-          {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-        </button>
+
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -36,14 +31,16 @@ export default function Home() {
           <div className="flex items-start gap-6">
             {/* Profile Picture */}
             <div className="w-40 h-40 rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-600 flex items-center justify-center relative">
-              <Image
-                src="/profile-photo.jpg"
-                alt="Jose Antonio L. Alcalde"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
-              />
+            <Image
+  src="/profile-photo.jpg"
+  alt="Jose Antonio L. Alcalde"
+  width={160} // matches w-40 (40 * 4px)
+  height={160} // matches h-40
+  className="w-full h-full object-cover"
+  onError={(e) => {
+    e.currentTarget.style.display = 'none';
+  }}
+/>
             </div>
             
             {/* Profile Info */}
