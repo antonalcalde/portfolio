@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
-import { Mail, Phone, Calendar, Github, Linkedin, Globe, Award, Code, Briefcase, BookOpen, Users, MessageSquare, Sun, Moon, ExternalLink, ArrowRight, FolderOpen } from "lucide-react";
+import {Github, Linkedin, Award, Code, Briefcase, BookOpen,  Sun, Moon,  ArrowRight, FolderOpen } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -36,9 +36,9 @@ export default function Home() {
           <div className="flex items-start gap-6">
             {/* Profile Picture */}
             <div className="w-40 h-40 rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-600 flex items-center justify-center relative">
-              <img 
-                src="/profile-photo.jpg" 
-                alt="Jose Antonio L. Alcalde" 
+              <Image
+                src="/profile-photo.jpg"
+                alt="Jose Antonio L. Alcalde"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
@@ -87,15 +87,17 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white">About</h3>
               </div>
               <div className="text-gray-700 dark:text-gray-300 space-y-3 text-sm leading-relaxed">
-                <p>
-                  I'm a software engineer specializing in Python, Flutter, and AI-powered solutions, with expertise in machine learning, natural language processing, and intelligent systems. My experience covers building mobile and web applications, developing neural network–based malware detection systems, and creating NLP-driven grammar enhancement tools for low-resource languages.
-                </p>
-                <p>
-                  I craft AI-integrated chatbots, design intuitive user interfaces, and develop predictive analytics pipelines using technologies like TensorFlow, Scikit-learn, XGBoost, and Flask. My solutions transform complex data into actionable insights and deliver seamless user experiences across platforms.
-                </p>
-                <p>
-                  Recently, I've been diving deeper into generative AI and advanced machine learning, applying them to real-world applications that help people work smarter and more efficiently. I'm passionate about creating impactful software that merges functionality, intelligence, and accessibility.
-                </p>
+              <p>
+  I&apos;m a software engineer specializing in Python, Flutter, and AI-powered solutions, with expertise in machine learning, natural language processing, and intelligent systems. My experience covers building mobile and web applications, developing neural network–based malware detection systems, and creating NLP-driven grammar enhancement tools for low-resource languages.
+</p>
+
+<p>
+  I craft AI-integrated chatbots, design intuitive user interfaces, and develop predictive analytics pipelines using technologies like TensorFlow, Scikit-learn, XGBoost, and Flask. My solutions transform complex data into actionable insights and deliver seamless user experiences across platforms.
+</p>
+<p>
+  Recently, I&apos;ve been diving deeper into generative AI and advanced machine learning, applying them to real-world applications that help people work smarter and more efficiently. I&apos;m passionate about creating impactful software that merges functionality, intelligence, and accessibility.
+</p>
+
               </div>
             </div>
 
@@ -262,9 +264,10 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white">Beyond Coding</h3>
               </div>
               <div className="text-gray-700 dark:text-gray-300 space-y-3 text-sm leading-relaxed">
-                <p>
-                  When I'm not building apps or experimenting with AI, I'm busy exploring the latest in emerging tech, geeking out over machine learning breakthroughs, or tinkering with side projects that may or may not ever see the light of day. I'm a firm believer in lifelong learning and am constantly leveling up—both in code and in life.
-                </p>
+              <p>
+  When I&apos;m not building apps or experimenting with AI, I&apos;m busy exploring the latest in emerging tech, geeking out over machine learning breakthroughs, or tinkering with side projects that may or may not ever see the light of day. I&apos;m a firm believer in lifelong learning and am constantly leveling up—both in code and in life.
+</p>
+
               </div>
             </div>
           </div>
@@ -362,9 +365,9 @@ export default function Home() {
                   <p className="text-gray-600 dark:text-gray-400 text-xs">2021 - 2025</p>
                 </div>
                 <div className="ml-5">
-                  <p className="text-gray-600 dark:text-gray-400 text-xs leading-relaxed">
-                    Consistently named to the Dean's List for academic excellence.
-                  </p>
+                <p className="text-gray-600 dark:text-gray-400 text-xs leading-relaxed">
+  Consistently named to the Dean&apos;s List for academic excellence.
+</p>
                   <p className="text-gray-600 dark:text-gray-400 text-xs leading-relaxed">
                     Cumulative GPA: 3.64/4.0
                   </p>
