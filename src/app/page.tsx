@@ -1,12 +1,11 @@
 "use client";
 
-import {Github, Linkedin, Award, Code, Briefcase, BookOpen,  Sun, Moon,  ArrowRight, FolderOpen } from "lucide-react";
+import {Github, Linkedin, Award, Code, Briefcase, BookOpen, ArrowRight, FolderOpen } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Image from 'next/image';
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [showFullTechStack, setShowFullTechStack] = useState(false);
 
@@ -85,7 +84,7 @@ export default function Home() {
               </div>
               <div className="text-black dark:text-gray-300 space-y-3 text-s leading-relaxed">
 <p>
-  I'm an aspiring software engineer specializing in Python, Flutter, and AI, with expertise in machine learning, NLP, and intelligent systems. I have experience building mobile and web apps, neural network–based malware detection systems, and NLP tools for low-resource languages.
+  I&apos;m an aspiring software engineerspecializing in Python, Flutter, and AI, with expertise in machine learning, NLP, and intelligent systems. I have experience building mobile and web apps, neural network–based malware detection systems, and NLP tools for low-resource languages.
 </p>
 
 <p>
@@ -361,7 +360,7 @@ Led development of an NLP-based app to improve Tagalog grammar using BERT for se
           Bachelor of Science in Computer Science | Major in Intelligent Systems
         </p>
         <p className="text-black dark:text-gray-400 text-sm leading-relaxed">
-          Achieved Dean's List honors for 6 semesters.
+          Achieved Dean&apos;s List honors for 6 semesters.
         </p>
         <p className="text-black dark:text-gray-400 text-sm leading-relaxed">
           Cumulative GPA: 3.64/4.0
@@ -437,7 +436,7 @@ Led development of an NLP-based app to improve Tagalog grammar using BERT for se
 {/* Connect Section */}
 <div className="mt-6">
   <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-5 border border-gray-100 dark:border-gray-700">
-    <h3 className="text-lg font-bold mb-4 text-black dark:text-white">Let's Connect!</h3>
+<h3 className="text-lg font-bold mb-4 text-black dark:text-white">Let&apos;s Connect!</h3>
     
     {/* Email */}
     <div className="mb-4">
