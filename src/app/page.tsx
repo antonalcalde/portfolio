@@ -49,7 +49,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2 text-black dark:text-gray-400 mb-2">
                 <div className="w-4 h-4">📍</div>
-                <span>Manila, Philippines</span>
+                <span>Metro Manila, Philippines</span>
               </div>
               <h2 className="text-xl font-semibold text-black dark:text-white mb-4">Aspiring Software Engineer</h2>
               <a
@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               <div className="text-black dark:text-gray-300 space-y-3 text-s leading-relaxed">
 <p>
-  I&apos;m an aspiring software engineerspecializing in Python, Flutter, and AI, with expertise in machine learning, NLP, and intelligent systems. I have experience building mobile and web apps, neural network–based malware detection systems, and NLP tools for low-resource languages.
+  I&apos;m an aspiring software engineer specializing in Python, Flutter, and AI, with expertise in machine learning, NLP, and intelligent systems. I have experience building mobile and web apps, neural network–based malware detection systems, and NLP tools for low-resource languages.
 </p>
 
 <p>
