@@ -326,6 +326,7 @@ Built a Flutter Android app to track expenses and predict savings goals using an
                   <p className="text-black dark:text-gray-400 text-sm mb-2">
 Led development of an NLP-based app to improve Tagalog grammar using BERT for sentence parsing and contextual embeddings. Applied text classification and language modeling for low-resource language processing, advancing skills in NLP, ML, and intelligent language technology for cultural preservation.                  </p>
                   <div className="flex flex-wrap gap-2">
+                    <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded text-xs">PyTorch</span>
                     <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded text-xs">BERT</span>
                     <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded text-xs">NLP</span>
                     <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded text-xs">Python</span>
